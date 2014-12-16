@@ -9,4 +9,5 @@
 (load "common-setup.el")
 (load "backups-setup.el")
 (load "ruby-setup.el")
+(load "smartparens-config.el")
 (load "key-bindings.el")
