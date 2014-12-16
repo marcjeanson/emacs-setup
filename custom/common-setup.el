@@ -15,3 +15,7 @@
 
 ;; Do not wrap lines
 (setq-default truncate-lines 1)
+
+;; Highlight incremental search
+(setq search-highlight t)
+(transient-mark-mode t)
