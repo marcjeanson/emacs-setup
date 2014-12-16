@@ -5,5 +5,8 @@
 (pallet-mode t)
 
 (add-to-list 'load-path "~/.emacs.d/custom")
+
 (load "common-setup.el")
 (load "backups-setup.el")
+(load "ruby-setup.el")
+(load "key-bindings.el")
