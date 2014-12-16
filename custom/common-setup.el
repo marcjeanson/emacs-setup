@@ -9,3 +9,9 @@
 
 ;; Show column-number in the mode line
 (column-number-mode 1)
+
+;; Do not use tabs for indentation
+(setq-default indent-tabs-mode nil)
+
+;; Do not wrap lines
+(setq-default truncate-lines 1)
