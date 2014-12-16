@@ -5,5 +5,5 @@
 (pallet-mode t)
 
 (add-to-list 'load-path "~/.emacs.d/custom")
-
 (load "common-setup.el")
+(load "backups-setup.el")
