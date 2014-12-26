@@ -7,10 +7,14 @@
 (add-to-list 'load-path "~/.emacs.d/custom")
 
 (load "common-setup.el")
+
+(load "ace-jump-setup.el")
 (load "backups-setup.el")
-(load "ruby-setup.el")
-(load "smartparens-config.el")
-;; (load "ido-setup.el")
-(load "projectile-setup.el")
 (load "helm-setup.el")
+(load "magit-setup.el")
+(load "projectile-setup.el")
+(load "ruby-setup.el")
+(load "smartparens-setup.el")
+;; (load "ido-setup.el")
+
 (load "key-bindings.el")

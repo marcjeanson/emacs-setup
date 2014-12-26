@@ -45,13 +45,7 @@
 (setq search-highlight t)
 (transient-mark-mode t)
 
-;; AceJumpMode
-(autoload
-  'ace-jump-mode
-  "ace-jump-mode"
-  "Emacs quick move minor mode"
-  t)
-
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
 (load-theme 'molokai t)
+(set-default-font "Inconsolata 14")
