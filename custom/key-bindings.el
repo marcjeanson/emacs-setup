@@ -9,6 +9,3 @@
 (global-set-key (kbd "C-x <left>") 'windmove-left)
 
 (global-set-key (kbd "C-x p") 'previous-multiframe-window)
-
-
-

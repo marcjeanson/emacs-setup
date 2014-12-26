@@ -52,8 +52,6 @@
   "Emacs quick move minor mode"
   t)
 
-(projectile-global-mode)
-
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
 (load-theme 'molokai t)

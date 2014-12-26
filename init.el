@@ -10,5 +10,7 @@
 (load "backups-setup.el")
 (load "ruby-setup.el")
 (load "smartparens-config.el")
-;; (load "helm-setup.el")
+;; (load "ido-setup.el")
+(load "projectile-setup.el")
+(load "helm-setup.el")
 (load "key-bindings.el")
