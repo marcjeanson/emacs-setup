@@ -1,5 +1,4 @@
 (source gnu)
-(source marmalade)
 (source melpa)
 
 (depends-on "ace-jump-mode")
@@ -19,6 +18,7 @@
 (depends-on "helm-projectile")
 (depends-on "helm-rails")
 (depends-on "inf-ruby")
+(depends-on "let-alist")
 (depends-on "magit")
 (depends-on "molokai-theme")
 (depends-on "package-build")
@@ -28,5 +28,7 @@
 (depends-on "rainbow-delimiters")
 (depends-on "rspec-mode")
 (depends-on "rubocop")
+(depends-on "slim-mode")
 (depends-on "smartparens")
 (depends-on "undo-tree")
+(depends-on "yaml-mode")
