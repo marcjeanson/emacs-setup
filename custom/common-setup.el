@@ -1,6 +1,6 @@
 ;; Fix the shell env variables
-;; (when (memq window-system '(mac ns))
-;;   (exec-path-from-shell-initialize))
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
 
 ;; Hide the spash screen
 (setq inhibit-startup-message t inhibit-startup-echo-area-message t)
@@ -44,6 +44,8 @@
 ;; Highlight incremental search
 (setq search-highlight t)
 (transient-mark-mode t)
+
+(global-undo-tree-mode)
 
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
