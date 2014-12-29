@@ -7,3 +7,7 @@
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
+
+(defun projectile-helm-ag ()
+  (interactive)
+  (helm-ag (projectile-project-root)))
