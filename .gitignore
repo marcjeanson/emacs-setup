@@ -1,6 +1,7 @@
 .cask
 ac-comphist.dat
 auto-save-list
+bookmarks
 eshell
 projectile-bookmarks.eld
 projectile.cache
