@@ -9,3 +9,7 @@
 (global-set-key (kbd "C-x <left>") 'windmove-left)
 
 (global-set-key (kbd "C-x p") 'previous-multiframe-window)
+
+(global-set-key (kbd "s-=") 'evil-mode)
+
+(global-set-key (kbd "<f5>") 'kelm-spotify)

@@ -1,3 +1,6 @@
+(require 'chruby)
+(chruby "ruby-2.1.5")
+
 ;; Enhanced Ruby Mode config
 (autoload 'enh-ruby-mode "enh-ruby-mode" "Major mode for ruby files" t)
 (add-to-list 'auto-mode-alist '("\\.rb$" . enh-ruby-mode))
@@ -9,9 +12,6 @@
 (add-to-list 'interpreter-mode-alist '("ruby" . enh-ruby-mode))
 (add-hook 'enh-ruby-mode-hook 'inf-ruby-minor-mode)
 
-(require 'chruby)
-(chruby "ruby-2.1.5")
-
 (defadvice rspec-compile (around rspec-compile-around)
   "Use BASH shell for running the specs because of ZSH issues."
   (let ((shell-file-name "/bin/bash"))
@@ -19,3 +19,9 @@
 (ad-activate 'rspec-compile)
 
 (setq rspec-use-rake-when-possible nil)
+
+(eval-after-load 'rspec-mode
+  '(rspec-install-snippets))
+
+;; pry integration with rspec-mode
+(add-hook 'after-init-hook 'inf-ruby-switch-setup) 

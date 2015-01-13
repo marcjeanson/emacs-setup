@@ -48,6 +48,3 @@
 (global-undo-tree-mode)
 
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
-
-(load-theme 'molokai t)
-(set-default-font "Inconsolata 14")
