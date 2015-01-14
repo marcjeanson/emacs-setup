@@ -12,4 +12,5 @@
 
 (global-set-key (kbd "s-=") 'evil-mode)
 
-(global-set-key (kbd "<f5>") 'kelm-spotify)
+(global-set-key (kbd "<f5>") 'helm-spotify)
+(global-set-key (kbd "<f6>") 'magit-status)
