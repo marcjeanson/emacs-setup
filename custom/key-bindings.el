@@ -14,3 +14,5 @@
 
 (global-set-key (kbd "<f5>") 'helm-spotify)
 (global-set-key (kbd "<f6>") 'magit-status)
+
+(global-set-key (kbd "C-x t") 'neotree-toggle)

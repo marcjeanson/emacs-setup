@@ -14,9 +14,11 @@
 (load "evil-setup.el")
 (load "helm-setup.el")
 (load "magit-setup.el")
+(load "neotree-setup.el")
 (load "projectile-setup.el")
 (load "ruby-setup.el")
 (load "smartparens-setup.el")
+(load "yasnippet-setup.el")
 ;; (load "ido-setup.el")
 
 (load "key-bindings.el")
@@ -27,3 +29,4 @@
 ;; stuff no available as packages
 (add-to-list 'load-path "~/.emacs.d/vendor/bundler.el")
 (require 'bundler)
+(put 'downcase-region 'disabled nil)

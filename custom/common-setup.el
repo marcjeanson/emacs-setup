@@ -48,3 +48,4 @@
 (global-undo-tree-mode)
 
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)

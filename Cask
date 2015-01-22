@@ -37,6 +37,7 @@
 (depends-on "markdown-mode")
 (depends-on "molokai-theme")
 (depends-on "names")
+(depends-on "neotree")
 (depends-on "package-build")
 (depends-on "pallet")
 (depends-on "projectile")
