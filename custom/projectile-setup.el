@@ -1,8 +1,3 @@
-;; (require 'grizzl)
-;; (projectile-global-mode)
-;; (setq projectile-enable-caching t)
-;; (setq projectile-completion-system 'grizzl)
-
 (projectile-global-mode)
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
@@ -11,3 +6,5 @@
 (defun projectile-helm-ag ()
   (interactive)
   (helm-ag (projectile-project-root)))
+
+(define-key projectile-mode-map [?\s-f] 'projectile-helm-ag)

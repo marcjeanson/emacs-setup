@@ -24,4 +24,7 @@
   '(rspec-install-snippets))
 
 ;; pry integration with rspec-mode
-(add-hook 'after-init-hook 'inf-ruby-switch-setup) 
+(add-hook 'after-init-hook 'inf-ruby-switch-setup)
+
+;; fix indenting
+(setq ruby-deep-indent-paren nil)

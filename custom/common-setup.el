@@ -39,7 +39,9 @@
 (delete-selection-mode t)
 
 ;; scroll by a single line
-(setq scroll-step 1)
+;;(setq scroll-step 1)
+;; trying out the smooth-scrolling package now
+(setq smooth-scroll-margin 3)
 
 ;; Highlight incremental search
 (setq search-highlight t)
