@@ -50,6 +50,7 @@
 (depends-on "rspec-mode")
 (depends-on "rubocop")
 (depends-on "ruby-hash-syntax")
+(depends-on "ruby-interpolation")
 (depends-on "sass-mode")
 (depends-on "scss-mode")
 (depends-on "slim-mode")

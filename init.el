@@ -27,7 +27,7 @@
 (set-default-font "Inconsolata 14")
 (load-theme 'afternoon t)
 
-;; stuff no available as packages
+;; stuff not available as packages
 (add-to-list 'load-path "~/.emacs.d/vendor/bundler.el")
 (require 'bundler)
 (put 'downcase-region 'disabled nil)

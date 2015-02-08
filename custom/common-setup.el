@@ -30,7 +30,8 @@
 (global-hl-line-mode 1)
 
 ;; Do not use tabs for indentation
-(setq-default indent-tabs-mode nil)
+(setq tab-width 2
+  indent-tabs-mode nil)
 
 ;; Do not wrap lines
 (setq-default truncate-lines 1)
@@ -51,3 +52,6 @@
 
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+(setq coffee-tab-width 2)
+(setq css-indent-offset 2)
