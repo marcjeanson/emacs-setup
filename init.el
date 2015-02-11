@@ -20,7 +20,6 @@
 (load "smartparens-setup.el")
 (load "web-mode-setup.el")
 ;;(load "yasnippet-setup.el")
-;; (load "ido-setup.el")
 
 (load "key-bindings.el")
 
