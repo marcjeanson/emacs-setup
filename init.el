@@ -18,13 +18,12 @@
 (load "projectile-setup.el")
 (load "ruby-setup.el")
 (load "smartparens-setup.el")
+(load "theme-setup.el")
 (load "web-mode-setup.el")
 ;;(load "yasnippet-setup.el")
 
 (load "key-bindings.el")
 
-(set-default-font "Inconsolata 14")
-(load-theme 'afternoon t)
 
 ;; stuff not available as packages
 (add-to-list 'load-path "~/.emacs.d/vendor/bundler.el")

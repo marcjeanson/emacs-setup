@@ -21,7 +21,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; Show line numbers
-(global-linum-mode 1)
+;; (global-linum-mode 1)
 
 ;; Show column-number in the mode line
 (column-number-mode 1)
