@@ -12,6 +12,7 @@
 (load "auto-complete-setup.el")
 (load "backups-setup.el")
 (load "evil-setup.el")
+(load "flycheck-setup.el")
 (load "helm-setup.el")
 (load "magit-setup.el")
 (load "neotree-setup.el")
