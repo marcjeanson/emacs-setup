@@ -3,11 +3,6 @@
 
 (global-set-key (kbd "C-c SPC") 'ace-jump-mode)
 
-(global-set-key (kbd "C-x <up>") 'windmove-up)
-(global-set-key (kbd "C-x <down>") 'windmove-down)
-(global-set-key (kbd "C-x <right>") 'windmove-right)
-(global-set-key (kbd "C-x <left>") 'windmove-left)
-
 (global-set-key (kbd "C-x p") 'previous-multiframe-window)
 
 (global-set-key (kbd "s-=") 'evil-mode)
@@ -20,3 +15,10 @@
 (global-set-key (kbd "s-9") 'magit-log)
 
 (global-set-key (kbd "s-b") 'bundle-install)
+
+(global-set-key (kbd "s-;") 'switch-window)
+
+(global-set-key (kbd "s-<left>")  'buf-move-left)
+(global-set-key (kbd "s-<right>") 'buf-move-right)
+(global-set-key (kbd "s-<up>")    'buf-move-up)
+(global-set-key (kbd "s-<down>")  'buf-move-down)
