@@ -12,6 +12,8 @@
 (add-to-list 'interpreter-mode-alist '("ruby" . enh-ruby-mode))
 (add-hook 'enh-ruby-mode-hook 'inf-ruby-minor-mode)
 
+(add-hook 'enh-ruby-mode-hook 'robe-mode)
+
 (setq enh-ruby-bounce-deep-indent t)
 (setq enh-ruby-deep-indent-paren t)
 (setq enh-ruby-hanging-brace-deep-indent-level 1)
