@@ -30,8 +30,10 @@
 (global-hl-line-mode 1)
 
 ;; Do not use tabs for indentation
-(setq tab-width 2
-  indent-tabs-mode nil)
+(setq standard-indent 2)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+(setq indent-line-function 'insert-tab)
 
 ;; Do not wrap lines
 (setq-default truncate-lines 1)
