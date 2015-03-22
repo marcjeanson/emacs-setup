@@ -36,7 +36,11 @@
 (setq rspec-use-rake-when-possible nil)
 
 (eval-after-load 'rspec-mode
-  '(rspec-install-snippets))
+  '(progn
+     (rspec-install-snippets)
+     (define-key rspec-mode-map (kbd "s-r") 'rspec-verify)
+     (define-key rspec-mode-map (kbd "s-s") 'rspec-verify-single)
+     (define-key rspec-mode-map (kbd "s-a") 'rspec-verify-all)))
 
 ;; pry integration with rspec-mode
 (add-hook 'after-init-hook 'inf-ruby-switch-setup)
