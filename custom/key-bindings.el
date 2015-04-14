@@ -16,8 +16,6 @@
 (global-set-key (kbd "s-0") 'magit-status)
 (global-set-key (kbd "s-9") 'magit-log)
 
-(global-set-key (kbd "s-b") 'bundle-install)
-
 (global-set-key (kbd "s-;") 'switch-window)
 (global-set-key (kbd "s-g") 'goto-line)
 
