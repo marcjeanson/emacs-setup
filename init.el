@@ -41,7 +41,7 @@
 (load "smartparens-setup.el")
 (load "theme-setup.el")
 (load "web-mode-setup.el")
-;;(load "yasnippet-setup.el")
+(load "yasnippet-setup.el")
 
 (load "key-bindings.el")
 
@@ -49,3 +49,5 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/bundler.el")
 (require 'bundler)
 (put 'downcase-region 'disabled nil)
+
+(setq magit-last-seen-setup-instructions "1.4.0")

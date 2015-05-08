@@ -3,7 +3,7 @@
 (global-set-key (kbd "M-<return>") 'toggle-frame-fullscreen)
 
 (global-set-key (kbd "M-x") 'helm-M-x)
-(global-set-key (kbd "C-x g") 'helm-do-ag)
+(global-set-key (kbd "C-x g") 'ag)
 
 (global-set-key (kbd "s-j") 'ace-jump-mode)
 

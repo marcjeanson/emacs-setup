@@ -57,3 +57,6 @@
 
 (setq coffee-tab-width 2)
 (setq css-indent-offset 2)
+
+;; scroll to the first error in the compile window
+(setq compilation-scroll-output 'first-error)

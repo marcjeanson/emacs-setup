@@ -1,5 +1,5 @@
 (require 'chruby)
-(chruby "ruby-2.1.5")
+(chruby "ruby-2.1.6")
 
 ;; Enhanced Ruby Mode config
 (autoload 'enh-ruby-mode "enh-ruby-mode" "Major mode for ruby files" t)
